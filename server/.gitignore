@@ -163,3 +163,12 @@ dist
 # End of https://www.toptal.com/developers/gitignore/api/node,dotenv,yarn
 
 /.yarn/cache/
+
+.temp/
+
+# Typescript
+*.js
+*.js.map
+
+# GraphQL
+*.graphql

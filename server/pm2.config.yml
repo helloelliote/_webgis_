@@ -1,0 +1,20 @@
+---
+apps:
+  - name: sspfs47130
+    cwd: "./"
+    script: "./app.bundle.js"
+    exec_mode: cluster
+    instances: 3
+    watch:
+      - public
+      - views
+      - ./app.bundle.js
+    max_memory_restart: 2G
+    combine_logs: false
+    error_file: "./logs/pm2-error.log"
+    out_file: "./logs/pm2.log"
+    time: true
+    wait_ready: false
+    autorestart: true
+    env:
+      NODE_ENV: production
