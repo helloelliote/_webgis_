@@ -1,0 +1,12 @@
+# Ignore artifacts:
+dist
+
+.git
+node_modules
+
+.yarn
+.github
+
+*.hbs
+
+*.graphql
