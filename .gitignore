@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/intellij+all,database,node,react,dotenv,yarn,visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=intellij+all,database,node,react,dotenv,yarn,visualstudiocode
+# Created by https://www.toptal.com/developers/gitignore/api/intellij+all,node,database,yarn,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=intellij+all,node,database,yarn,visualstudiocode
 
 ### Database ###
 *.accdb
@@ -10,9 +10,6 @@
 *.sqlite3
 *.db-shm
 *.db-wal
-
-### dotenv ###
-.env
 
 ### Intellij+all ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
@@ -178,6 +175,7 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variable files
+.env
 .env.development.local
 .env.test.local
 .env.production.local
@@ -241,19 +239,6 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
-### react ###
-.DS_*
-**/*.backup.*
-**/*.back.*
-
-node_modules
-
-*.sublime*
-
-psd
-thumb
-sketch
-
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -288,6 +273,6 @@ sketch
 #!.yarn/cache
 
 # and uncomment the following lines
- .pnp.*
+#.pnp.*
 
-# End of https://www.toptal.com/developers/gitignore/api/intellij+all,database,node,react,dotenv,yarn,visualstudiocode
+# End of https://www.toptal.com/developers/gitignore/api/intellij+all,node,database,yarn,visualstudiocode
