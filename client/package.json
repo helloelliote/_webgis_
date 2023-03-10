@@ -18,8 +18,8 @@
     "@types/react-dom": "^18.0.11"
   },
   "scripts": {
-    "start": "PORT=3000 react-scripts start",
-    "build": "react-scripts build && cp -r build/* ../dist/public/",
+    "start": "react-scripts start",
+    "build": "BUILD_PATH='../dist/public' react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -42,5 +42,6 @@
     ]
   },
   "packageManager": "yarn@3.4.1",
-  "proxy": "http://localhost:3003"
+  "proxy": "http://djgis.iptime.org:5005",
+  "homepage": "./"
 }

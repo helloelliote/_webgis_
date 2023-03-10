@@ -60,11 +60,7 @@ module.exports = (env, argv) => {
     plugins: [
       new ForkTsCheckerWebpackPlugin(),
       new CopyWebpackPlugin({
-        patterns: [
-          { from: "views", to: "views" },
-          { from: path.join(__dirname, "public", "favicon.ico"), to: "public" },
-          "pm2.config.yml",
-        ],
+        patterns: ["pm2.config.yml"],
       }),
       {
         apply: (compiler) => {
