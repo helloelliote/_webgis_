@@ -13,7 +13,7 @@ const debug = debug0("web-nodejs:server");
  * Get port from environment and store in Express.
  */
 const port: string | number | boolean = normalizePort(
-  process.env.PORT || "5005"
+  process.env.PORT || "3031"
 );
 app.set("port", port);
 
