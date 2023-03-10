@@ -3,14 +3,7 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/client/public" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/client/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/server/middlewares" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/server/routes" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/dist" />
-      <excludeFolder url="file://$MODULE_DIR$/.yarn/cache" />
-      <excludeFolder url="file://$MODULE_DIR$/client/.yarn/cache" />
-      <excludeFolder url="file://$MODULE_DIR$/server/.yarn/cache" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
