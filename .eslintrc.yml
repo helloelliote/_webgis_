@@ -1,14 +1,17 @@
-env:
-  es6: true
-  node: true
-  browser: true
-extends: plugin:prettier/recommended
-ignorePatterns: node_modules
+extends:
+  - "eslint:recommended"
+  - "plugin:@typescript-eslint/recommended"
+  - "prettier"
 parser: "@typescript-eslint/parser"
 parserOptions:
-  requireConfigFile: false,
+  ecmaVersion: 2022
+  project:
+    - "./client/tsconfig.json"
+    - "./server/tsconfig.json"
+  sourceType: module
 plugins:
-  - prettier
+  - "@typescript-eslint"
+root: true
 rules:
+  "@typescript-eslint/no-unused-vars": off
   jsx-a11y/anchor-is-valid: off
-  prettier/prettier: warn

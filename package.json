@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "prettier": "prettier --write ."
+    "format": "prettier --check --write . && eslint . && echo \"All matched files pass ESLint check!\""
   },
   "author": "",
   "license": "ISC",
   "packageManager": "yarn@3.4.1",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
     "@typescript-eslint/parser": "^5.54.1",
     "eslint": "^8.35.0",
     "eslint-config-prettier": "^8.7.0",
-    "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.4",
     "typescript": "^4.9.5"
   }
