@@ -6,6 +6,7 @@
 import app from "../app";
 import debug0 from "debug";
 import http from "http";
+import ErrnoException = NodeJS.ErrnoException;
 import { AddressInfo } from "net";
 
 const debug = debug0("web-nodejs:server");
@@ -57,7 +58,7 @@ function normalizePort(val: string) {
  * Event listener for HTTP server "error" event.
  */
 
-function onError(error: any) {
+function onError(error: ErrnoException) {
   if (error.syscall !== "listen") {
     throw error;
   }

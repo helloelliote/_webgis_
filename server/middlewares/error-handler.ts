@@ -10,11 +10,11 @@ const create: (
   next(createError(404));
 };
 
-const handle: (err: any, req: e.Request, res: e.Response) => void = (
-  err: any,
-  req: Request,
-  res: Response
-) => {
+const handle: (
+  err: Error & { status?: number },
+  req: e.Request,
+  res: e.Response
+) => void = (err: Error & { status?: number }, req: Request, res: Response) => {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get("env") === "development" ? err : {};

@@ -12,8 +12,7 @@ export default (): RequestHandler =>
     proxy: true,
     resave: false,
     saveUninitialized: true,
-    // @ts-ignore
-    secret: process.env.SESSION_KEY,
+    secret: process.env.SESSION_KEY ?? "secret",
     store: new postgresqlSession({
       createTableIfMissing: true,
       pool: pg.pool,

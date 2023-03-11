@@ -8,6 +8,7 @@ import { Build, Options, Plugin } from "postgraphile";
 const extendSchemaPlugin: Plugin = makeExtendSchemaPlugin(
   (build: Build, schemaOptions: Options): ExtensionDefinition => {
     const { pgSql: sql, inflection } = build;
+    // eslint-disable-next-line no-empty-pattern
     const {} = schemaOptions;
 
     // example data
