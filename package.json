@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "format": "prettier --check --write . && eslint . && echo \"All matched files pass ESLint check!\""
+    "format": "prettier --check --write . && eslint . && echo \"All matched files pass ESLint check!\"",
+    "ncu": "ncu --deep"
   },
   "author": "",
   "license": "ISC",
@@ -12,8 +13,9 @@
     "@types/node": "^18.15.1",
     "@typescript-eslint/eslint-plugin": "^5.54.1",
     "@typescript-eslint/parser": "^5.54.1",
-    "eslint": "^8.35.0",
+    "eslint": "^8.36.0",
     "eslint-config-prettier": "^8.7.0",
+    "npm-check-updates": "^16.7.12",
     "prettier": "^2.8.4",
     "typescript": "^4.9.5"
   },
