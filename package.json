@@ -9,11 +9,16 @@
   "license": "ISC",
   "packageManager": "yarn@3.4.1",
   "devDependencies": {
+    "@types/node": "^18.15.1",
     "@typescript-eslint/eslint-plugin": "^5.54.1",
     "@typescript-eslint/parser": "^5.54.1",
     "eslint": "^8.35.0",
     "eslint-config-prettier": "^8.7.0",
     "prettier": "^2.8.4",
     "typescript": "^4.9.5"
-  }
+  },
+  "workspaces": [
+    "client",
+    "server"
+  ]
 }
