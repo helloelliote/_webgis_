@@ -15,8 +15,10 @@
     "@types/jest": "^29.4.0",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
+    "@types/styled-components": "^5.1.26",
     "sass": "^1.59.2",
-    "sass-loader": "^13.2.0"
+    "sass-loader": "^13.2.0",
+    "styled-components": "^5.3.9"
   },
   "scripts": {
     "start": "PORT=3033 react-scripts start",

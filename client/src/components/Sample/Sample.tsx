@@ -1,8 +1,18 @@
-import { SampleProps } from "../../types";
-import "./Sample.scss";
+import { useEffect, useState } from "react";
+import styled from "styled-components";
 
-const Sample = (props: SampleProps) => {
-  return <div>{props.name}</div>;
+const Sample = (props: unknown) => {
+  const [prop, setProp] = useState(props);
+  useEffect(() => {
+    // TODO
+  }, []);
+  return (
+    <>
+      <Styled></Styled>
+    </>
+  );
 };
+
+const Styled = styled.div``;
 
 export { Sample };
