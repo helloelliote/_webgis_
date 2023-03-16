@@ -1,4 +1,5 @@
 dist
-/index.d.ts
+temp
 /server/**/*.js
+/client/vite.config.ts
 /.eslintrc.js
