@@ -8,3 +8,5 @@ node_modules
 .github
 
 *.graphql
+
+client/src/__tests__/coverage

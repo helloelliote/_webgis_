@@ -34,5 +34,13 @@ export default defineConfig(({ command, mode }) => {
         ignored: [".idea"],
       },
     },
+    test: {
+      coverage: {
+        reportsDirectory: "./src/__tests__/coverage",
+      },
+      environment: "jsdom",
+      globals: true,
+      setupFiles: "./src/__tests__/index.ts",
+    },
   };
 });

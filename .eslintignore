@@ -1,5 +1,6 @@
 dist
 temp
 /server/**/*.js
+/client/src/__tests__/coverage
 /client/vite.config.ts
 /.eslintrc.js

@@ -14,6 +14,7 @@ module.exports = {
   plugins: ["@typescript-eslint"],
   root: true,
   rules: {
+    "@typescript-eslint/no-unused-params": "off",
     "@typescript-eslint/no-unused-vars": "off",
     "jsx-a11y/anchor-is-valid": "off",
   },
