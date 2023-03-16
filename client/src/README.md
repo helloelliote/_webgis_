@@ -1,4 +1,12 @@
-# `/src` 폴더 구조 개요
+# Client ([React](https://beta.reactjs.org/))
+
+## 목차
+
+- [/src 폴더 구조 개요](#src-폴더-구조-개요)
+- [사용하는 IntelliJ 플러그인](#사용하는-intellij-플러그인)
+- [참조 링크](#참조-링크)
+
+### /src 폴더 구조 개요
 
 ---
 
@@ -91,3 +99,28 @@ src/
 `index.tsx`:
 
 이것은 애플리케이션의 `App` 컴포넌트를 DOM에 마운트하는 진입점입니다.
+
+### 사용하는 IntelliJ 플러그인
+
+- .env files support
+- .ignore
+- GraphQL
+- Database Tools and SQL
+- JavaScript and TypeScript
+- JavaScript Intention Power Pack
+- Node.js
+- Prettier
+- Webpack
+- Markdown
+- YAML
+- CSS / LESS / Sass
+- JUnit
+- Code With Me
+- EditorConfig
+- HTTP Client
+- Styled Components
+
+### 참조 링크
+
+- [React 공식 문서](https://beta.reactjs.org/)
+- [create-react-app > vite 마이그레이션](https://github.com/nordcloud/pat-frontend-template/blob/master/docs/CRA_MIGRATION_GUIDE.md)
