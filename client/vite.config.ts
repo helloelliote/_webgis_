@@ -14,6 +14,11 @@ export default defineConfig(({ command, mode }) => {
       emptyOutDir: true,
       outDir: "../dist/public",
     },
+    css: {
+      modules: {
+        localsConvention: "camelCase",
+      },
+    },
     define: {
       "process.env.NODE_ENV": `"${mode}"`,
     },
