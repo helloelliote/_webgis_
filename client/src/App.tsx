@@ -1,9 +1,12 @@
-import { useState } from "react";
+import { ReactElement, useState } from "react";
 import reactLogo from "/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
-function App() {
+/**
+ * @category Component
+ */
+export const App = (): ReactElement => {
   const [count, setCount] = useState(0);
 
   return (
@@ -30,6 +33,4 @@ function App() {
       </p>
     </div>
   );
-}
-
-export default App;
+};
