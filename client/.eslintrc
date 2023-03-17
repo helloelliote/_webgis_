@@ -1,0 +1,7 @@
+{
+  "extends": ["../.eslintrc"],
+  "ignorePatterns": ["docs/", "src/__tests__/coverage/", "vite.config.ts"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}
