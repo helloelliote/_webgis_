@@ -30,7 +30,7 @@
     "postgraphile": "^4.13.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.21.0",
+    "@babel/core": "^7.21.3",
     "@types/bcrypt": "^5.0.0",
     "@types/connect-pg-simple": "^7.0.0",
     "@types/cookie-parser": "^1.4.3",
@@ -48,7 +48,7 @@
     "fork-ts-checker-webpack-plugin": "^8.0.0",
     "ts-loader": "^9.4.2",
     "typedoc": "^0.23.27",
-    "webpack": "^5.76.1",
+    "webpack": "^5.76.2",
     "webpack-cli": "^5.0.1",
     "webpack-node-externals": "^3.0.0"
   },
