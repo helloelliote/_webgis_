@@ -12,8 +12,12 @@
   "plugins": ["@typescript-eslint"],
   "root": true,
   "rules": {
+    "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/no-empty-interface": "off",
+    "@typescript-eslint/no-namespace": "off",
     "@typescript-eslint/no-unused-params": "off",
     "@typescript-eslint/no-unused-vars": "off",
-    "jsx-a11y/anchor-is-valid": "off"
+    "jsx-a11y/anchor-is-valid": "off",
+    "no-empty": "off"
   }
 }
