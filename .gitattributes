@@ -3,7 +3,7 @@
 # Common settings that generally should always be used with your language specific settings
 
 # Auto detect text files and perform LF normalization
-*          text=auto
+*          text=auto eol=lf
 
 #
 # The above will handle all files NOT found below
@@ -111,8 +111,8 @@
 *.html            text diff=html
 *.inc             text
 *.ini             text
-*.js              text eol=lf
-*.json            text eol=lf
+*.js              text
+*.json            text
 *.jsx             text
 *.less            text
 *.ls              text
@@ -132,7 +132,7 @@
 *.sql             text
 *.styl            text
 *.tag             text
-*.ts              text eol=lf
+*.ts              text
 *.tsx             text
 *.xml             text
 *.xhtml           text diff=html
