@@ -1,0 +1,4 @@
+{
+  "entryPoints": ["./app.ts", "./routes", "./middlewares"],
+  "extends": ["../typedoc.json"]
+}

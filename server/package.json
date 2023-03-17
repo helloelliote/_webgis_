@@ -1,11 +1,12 @@
 {
   "name": "server",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start(server)": "node ./app.bundle.js",
     "build(server)": "webpack --mode=development",
     "watch(server)": "webpack --mode=development --watch",
+    "typedoc(server)": "typedoc",
     "stress": "artillery run ./.artilleryrc.yml"
   },
   "dependencies": {
@@ -46,6 +47,7 @@
     "copy-webpack-plugin": "^11.0.0",
     "fork-ts-checker-webpack-plugin": "^8.0.0",
     "ts-loader": "^9.4.2",
+    "typedoc": "^0.23.27",
     "webpack": "^5.76.1",
     "webpack-cli": "^5.0.1",
     "webpack-node-externals": "^3.0.0"

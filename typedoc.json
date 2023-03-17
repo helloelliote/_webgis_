@@ -1,0 +1,15 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "htmlLang": "ko",
+  "includeVersion": true,
+  "navigationLinks": {
+    "GitHub": "https://github.com/helloelliote/_webgis_",
+    "TypeDoc": "https://typedoc.org/guides/options"
+  },
+  "readme": "./README.md",
+  "sidebarLinks": {
+    "OpenLayers": "https://openlayers.org/"
+  },
+  "sort": ["alphabetical", "visibility"],
+  "watch": true
+}
