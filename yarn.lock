@@ -353,6 +353,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@colors/colors@npm:1.5.0":
+  version: 1.5.0
+  resolution: "@colors/colors@npm:1.5.0"
+  checksum: d64d5260bed1d5012ae3fc617d38d1afc0329fec05342f4e6b838f46998855ba56e0a73833f4a80fa8378c84810da254f76a8a19c39d038260dc06dc4e007425
+  languageName: node
+  linkType: hard
+
 "@discoveryjs/json-ext@npm:^0.5.0":
   version: 0.5.7
   resolution: "@discoveryjs/json-ext@npm:0.5.7"
@@ -925,7 +932,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/dom@npm:^9.0.0":
+"@testing-library/dom@npm:^9.0.0, @testing-library/dom@npm:^9.0.1":
   version: 9.0.1
   resolution: "@testing-library/dom@npm:9.0.1"
   dependencies:
@@ -1140,12 +1147,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/express-session@npm:*, @types/express-session@npm:^1.17.6":
+"@types/express-session@npm:*":
   version: 1.17.6
   resolution: "@types/express-session@npm:1.17.6"
   dependencies:
     "@types/express": "*"
   checksum: f5f2201d6b9568d8b9319735a4f6806b5ca144cee450274965aec54bc0a0331ba8bfffc1ad5addadf2e625769e13813a48cb5aea5b166fa05f474a12302dbb38
+  languageName: node
+  linkType: hard
+
+"@types/express-session@npm:^1.17.7":
+  version: 1.17.7
+  resolution: "@types/express-session@npm:1.17.7"
+  dependencies:
+    "@types/express": "*"
+  checksum: 4764eafaf4e26842e891e83fa9fee30b92cc3724d91987aac3a658322f9a69fb544dae24fc3aba6e15fe9575ed862760ebecd7ff97a947afb695284967434a65
   languageName: node
   linkType: hard
 
@@ -2587,12 +2603,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cli-table@npm:^0.3.11":
-  version: 0.3.11
-  resolution: "cli-table@npm:0.3.11"
+"cli-table3@npm:^0.6.3":
+  version: 0.6.3
+  resolution: "cli-table3@npm:0.6.3"
   dependencies:
-    colors: 1.0.3
-  checksum: 59fb61f992ac9bc8610ed98c72bf7f5d396c5afb42926b6747b46b0f8bb98a0dfa097998e77542ac334c1eb7c18dbf4f104d5783493273c5ec4c34084aa7c663
+    "@colors/colors": 1.5.0
+    string-width: ^4.2.0
+  dependenciesMeta:
+    "@colors/colors":
+      optional: true
+  checksum: 09897f68467973f827c04e7eaadf13b55f8aec49ecd6647cc276386ea660059322e2dd8020a8b6b84d422dbdd619597046fa89cbbbdc95b2cea149a2df7c096c
   languageName: node
   linkType: hard
 
@@ -2610,6 +2630,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "client@workspace:client"
   dependencies:
+    "@testing-library/dom": ^9.0.1
     "@testing-library/jest-dom": ^5.16.5
     "@testing-library/react": ^14.0.0
     "@testing-library/user-event": ^14.4.3
@@ -2622,14 +2643,17 @@ __metadata:
     jsdom: ^21.1.1
     react: ^18.2.0
     react-dom: ^18.2.0
+    react-is: ^18.2.0
     sass: ^1.59.3
-    sass-loader: ^13.2.0
+    sass-loader: ^13.2.1
     styled-components: ^5.3.9
-    typedoc: ^0.23.27
+    typedoc: ^0.23.28
+    typescript: ^5.0.2
     vite: ^4.2.0
     vite-plugin-checker: ^0.5.6
     vitest: ^0.29.3
     web-vitals: ^3.3.0
+    webpack: ^5.76.2
   languageName: unknown
   linkType: soft
 
@@ -2700,13 +2724,6 @@ __metadata:
   version: 2.0.19
   resolution: "colorette@npm:2.0.19"
   checksum: 888cf5493f781e5fcf54ce4d49e9d7d698f96ea2b2ef67906834bb319a392c667f9ec69f4a10e268d2946d13a9503d2d19b3abaaaf174e3451bfe91fb9d82427
-  languageName: node
-  linkType: hard
-
-"colors@npm:1.0.3":
-  version: 1.0.3
-  resolution: "colors@npm:1.0.3"
-  checksum: 234e8d3ab7e4003851cdd6a1f02eaa16dabc502ee5f4dc576ad7959c64b7477b15bd21177bab4055a4c0a66aa3d919753958030445f87c39a253d73b7a3637f5
   languageName: node
   linkType: hard
 
@@ -5315,7 +5332,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"klona@npm:^2.0.4":
+"klona@npm:^2.0.6":
   version: 2.0.6
   resolution: "klona@npm:2.0.6"
   checksum: ac9ee3732e42b96feb67faae4d27cf49494e8a3bf3fa7115ce242fe04786788e0aff4741a07a45a2462e2079aa983d73d38519c85d65b70ef11447bbc3c58ce7
@@ -5697,7 +5714,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^7.0.1, minimatch@npm:^7.1.3, minimatch@npm:^7.4.1":
+"minimatch@npm:^7.1.3, minimatch@npm:^7.4.1, minimatch@npm:^7.4.2":
   version: 7.4.2
   resolution: "minimatch@npm:7.4.2"
   dependencies:
@@ -6028,12 +6045,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"npm-check-updates@npm:^16.7.12":
-  version: 16.7.12
-  resolution: "npm-check-updates@npm:16.7.12"
+"npm-check-updates@npm:^16.7.13":
+  version: 16.7.13
+  resolution: "npm-check-updates@npm:16.7.13"
   dependencies:
     chalk: ^5.2.0
-    cli-table: ^0.3.11
+    cli-table3: ^0.6.3
     commander: ^10.0.0
     fast-memoize: ^2.5.2
     find-up: 5.0.0
@@ -6045,7 +6062,7 @@ __metadata:
     json-parse-helpfulerror: ^1.0.3
     jsonlines: ^0.1.1
     lodash: ^4.17.21
-    minimatch: ^7.0.1
+    minimatch: ^7.4.2
     p-map: ^4.0.0
     pacote: 15.1.1
     parse-github-url: ^1.0.2
@@ -6053,7 +6070,7 @@ __metadata:
     prompts-ncu: ^2.5.1
     rc-config-loader: ^4.1.2
     remote-git-tags: ^3.0.0
-    rimraf: ^4.1.2
+    rimraf: ^4.4.0
     semver: ^7.3.8
     semver-utils: ^1.1.4
     source-map-support: ^0.5.21
@@ -6065,7 +6082,7 @@ __metadata:
   bin:
     ncu: build/src/bin/cli.js
     npm-check-updates: build/src/bin/cli.js
-  checksum: a93c4bd76c495d657849595398404a2e0192a347fc03eda1ce1a337d67fc2cdc75c24d3752e5bfccb7949d5e887a2a6bb06096d0a8d16eac2dd3a87440b34794
+  checksum: 000e77fcae6e4009fa35ebe3f7d4fa87043ed3be4d8786907227444e5468f947487d063ee7bae688c1b55bbd5f81288ed1aabbc2b92d437006c2310f19a06e24
   languageName: node
   linkType: hard
 
@@ -6993,7 +7010,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^18.0.0":
+"react-is@npm:^18.0.0, react-is@npm:^18.2.0":
   version: 18.2.0
   resolution: "react-is@npm:18.2.0"
   checksum: e72d0ba81b5922759e4aff17e0252bd29988f9642ed817f56b25a3e217e13eea8a7f2322af99a06edb779da12d5d636e9fda473d620df9a3da0df2a74141d53e
@@ -7231,7 +7248,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rimraf@npm:^4.1.2":
+"rimraf@npm:^4.4.0":
   version: 4.4.0
   resolution: "rimraf@npm:4.4.0"
   dependencies:
@@ -7293,11 +7310,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass-loader@npm:^13.2.0":
-  version: 13.2.0
-  resolution: "sass-loader@npm:13.2.0"
+"sass-loader@npm:^13.2.1":
+  version: 13.2.1
+  resolution: "sass-loader@npm:13.2.1"
   dependencies:
-    klona: ^2.0.4
+    klona: ^2.0.6
     neo-async: ^2.6.2
   peerDependencies:
     fibers: ">= 3.1.0"
@@ -7314,7 +7331,7 @@ __metadata:
       optional: true
     sass-embedded:
       optional: true
-  checksum: ed6cdb5f5508e1a8a020d1451160a5e94805d0c2a97be5719c6a44ed28a258b5f37a1478d01b9d545f269367ae91ccb88adc93bd6202bfd609dbe3193228d51e
+  checksum: 5823b5f19d8efefeae6935027f4d5ba29bcd64998692e3ae7ef6684ddf5ef754daf98cdea10ebb61052045486cb62e0e07cc8cc999a52872b0d4da3274ecd493
   languageName: node
   linkType: hard
 
@@ -7463,7 +7480,7 @@ __metadata:
     "@types/csurf": ^1.11.2
     "@types/debug": ^4.1.7
     "@types/express": ^4.17.17
-    "@types/express-session": ^1.17.6
+    "@types/express-session": ^1.17.7
     "@types/http-errors": ^2.0.1
     "@types/lodash": ^4.14.191
     "@types/morgan": ^1.9.4
@@ -7489,7 +7506,8 @@ __metadata:
     pg: ^8.10.0
     postgraphile: ^4.13.0
     ts-loader: ^9.4.2
-    typedoc: ^0.23.27
+    typedoc: ^0.23.28
+    typescript: ^5.0.2
     webpack: ^5.76.2
     webpack-cli: ^5.0.1
     webpack-node-externals: ^3.0.0
@@ -8255,19 +8273,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typedoc@npm:^0.23.27":
-  version: 0.23.27
-  resolution: "typedoc@npm:0.23.27"
+"typedoc@npm:^0.23.28":
+  version: 0.23.28
+  resolution: "typedoc@npm:0.23.28"
   dependencies:
     lunr: ^2.3.9
     marked: ^4.2.12
     minimatch: ^7.1.3
     shiki: ^0.14.1
   peerDependencies:
-    typescript: 4.6.x || 4.7.x || 4.8.x || 4.9.x
+    typescript: 4.6.x || 4.7.x || 4.8.x || 4.9.x || 5.0.x
   bin:
     typedoc: bin/typedoc
-  checksum: 1ddcccf0b839c708a37d18b6dc1ab57ace6e177daf8f0442ff60d6e72c23ecbd78b0e602f0e1e553c7cb0254e0c769afff7c24c58683e564a7a07a2469cf99a5
+  checksum: 40eb4e207aac1b734e09400cf03f543642cc7b11000895198dd5a0d3166315759ccf4ac30a2915153597c5c186101c72bac2f1fc12b428184a9274d3a0e44c5e
   languageName: node
   linkType: hard
 
@@ -8751,7 +8769,7 @@ __metadata:
     "@typescript-eslint/parser": ^5.55.0
     eslint: ^8.36.0
     eslint-config-prettier: ^8.7.0
-    npm-check-updates: ^16.7.12
+    npm-check-updates: ^16.7.13
     prettier: ^2.8.4
     typescript: ^5.0.2
   languageName: unknown

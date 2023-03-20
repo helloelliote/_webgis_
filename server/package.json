@@ -38,7 +38,7 @@
     "@types/csurf": "^1.11.2",
     "@types/debug": "^4.1.7",
     "@types/express": "^4.17.17",
-    "@types/express-session": "^1.17.6",
+    "@types/express-session": "^1.17.7",
     "@types/http-errors": "^2.0.1",
     "@types/lodash": "^4.14.191",
     "@types/morgan": "^1.9.4",
@@ -47,7 +47,8 @@
     "copy-webpack-plugin": "^11.0.0",
     "fork-ts-checker-webpack-plugin": "^8.0.0",
     "ts-loader": "^9.4.2",
-    "typedoc": "^0.23.27",
+    "typedoc": "^0.23.28",
+    "typescript": "^5.0.2",
     "webpack": "^5.76.2",
     "webpack-cli": "^5.0.1",
     "webpack-node-externals": "^3.0.0"
