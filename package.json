@@ -10,13 +10,13 @@
   "license": "ISC",
   "packageManager": "yarn@3.5.0",
   "devDependencies": {
-    "@types/node": "^18.15.3",
-    "@typescript-eslint/eslint-plugin": "^5.55.0",
-    "@typescript-eslint/parser": "^5.55.0",
+    "@types/node": "^18.15.5",
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
     "eslint": "^8.36.0",
-    "eslint-config-prettier": "^8.7.0",
+    "eslint-config-prettier": "^8.8.0",
     "npm-check-updates": "^16.7.13",
-    "prettier": "^2.8.4",
+    "prettier": "^2.8.6",
     "typescript": "^5.0.2"
   },
   "workspaces": [
