@@ -1,4 +1,4 @@
-import { ReactElement, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { SampleProps } from "../../types";
 // import styled from "styled-components";
 import styles from "./Sample.module.scss";
@@ -7,7 +7,7 @@ import styles from "./Sample.module.scss";
  * @param props
  * @category Component
  */
-const Sample = (props: SampleProps): ReactElement => {
+const Sample = (props: SampleProps): JSX.Element => {
   const [prop, setProp] = useState(props);
   useEffect(() => {
     // TODO

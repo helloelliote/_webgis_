@@ -1,10 +1,9 @@
 import { cleanup, render, RenderResult } from "@testing-library/react";
 import { afterEach } from "vitest";
-import { ReactElement } from "react";
 
 afterEach(() => cleanup());
 
-const customRender = (ui: ReactElement, options = {}): RenderResult => {
+const customRender = (ui: JSX.Element, options = {}): RenderResult => {
   return render(ui, {
     wrapper: ({ children }) => children,
     ...options,

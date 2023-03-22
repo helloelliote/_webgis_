@@ -1,4 +1,4 @@
-import { ReactElement, useState } from "react";
+import { useState } from "react";
 import reactLogo from "/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -6,7 +6,7 @@ import "./App.css";
 /**
  * @category Component
  */
-export const App = (): ReactElement => {
+export const App = (): JSX.Element => {
   const [count, setCount] = useState(0);
 
   return (
