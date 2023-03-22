@@ -12,6 +12,7 @@ export default defineConfig(({ command, mode }) => {
   return {
     build: {
       emptyOutDir: true,
+      manifest: true,
       outDir: "../dist/public",
     },
     css: {
